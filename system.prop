@@ -26,6 +26,7 @@ dalvik.vm.isa.arm.features=default
 # Graphics
 debug.hwc.skip_dma_types=0,2
 ro.opengles.version=196610
+debug.hwc.enabled=0
 
 #EIS
 persist.camera.eis.enable=1
@@ -62,4 +63,6 @@ wifi.interface=wlan0
 import /efs/factory.prop
 
 # boot device
-#ro.boot.bootdevice=13540000.dwmmc0
+#ro.boot.bootdevice=13540000.dwmmc07
+
+

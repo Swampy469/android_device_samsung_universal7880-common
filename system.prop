@@ -26,14 +26,17 @@ dalvik.vm.isa.arm.features=default
 # Graphics
 debug.hwc.skip_dma_types=0,2
 ro.opengles.version=196610
-debug.hwc.enabled=0
+debug.hwc.enabled=1
+
+#GCAM
+persist.camera.HAL3.enabled=1
 
 #EIS
 persist.camera.eis.enable=1
 persist.camera.is_type=4
 
 # DPI
-ro.sf.lcd_density=411
+ro.sf.lcd_density=360
 
 # Nfc
 ro.nfc.port="I2C"
